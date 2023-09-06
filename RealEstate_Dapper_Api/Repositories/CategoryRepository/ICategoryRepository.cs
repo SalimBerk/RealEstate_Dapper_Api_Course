@@ -11,3 +11,4 @@ namespace RealEstate_Dapper_Api.Repositories.CategoryRepository
         Task<GetByIdCategoryDto> GetByIdCategoryAsync(int id);
     }
 }
+ 

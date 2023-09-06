@@ -19,7 +19,7 @@ namespace RealEstate_Dapper_Api.Controllers
         public async Task<IActionResult> CategoryList()
         {
             var values = await _categoryRepository.GetAllCategoryAsync();
-            return Ok(values);
+            return Ok(values); 
         }
         [HttpPost]
         public async Task<IActionResult> CategoryAdd(CreateCategoryDto categoryDto)

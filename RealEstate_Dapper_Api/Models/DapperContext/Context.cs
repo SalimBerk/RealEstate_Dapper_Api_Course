@@ -16,5 +16,6 @@ namespace RealEstate_Dapper_Api.Models.DapperContext
         }
         public IDbConnection CreateConnection() => new SqlConnection(_connectionString);
        
-    }
+    } 
 }
+  

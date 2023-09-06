@@ -10,4 +10,4 @@ namespace RealEstate_Dapper_Api
 
         public string? Summary { get; set; }
     }
-}
+} 
